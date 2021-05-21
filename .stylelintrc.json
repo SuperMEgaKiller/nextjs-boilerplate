@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "stylelint-prettier/recommended",
+    "stylelint-config-prettier"
+  ],
+  "rules": {
+    "prettier/prettier": true,
+    "block-no-empty": null,
+    "color-no-invalid-hex": true,
+    "string-quotes": "single",
+    "declaration-colon-space-after": "always",
+    "max-empty-lines": 2,
+    "rule-empty-line-before": [
+      "always",
+      {
+        "except": [
+          "first-nested"
+        ],
+        "ignore": [
+          "after-comment"
+        ]
+      }
+    ]
+  }
+}
