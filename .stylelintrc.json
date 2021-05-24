@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "stylelint-prettier/recommended",
-    "stylelint-config-prettier"
-  ],
+  "extends": ["stylelint-prettier/recommended", "stylelint-config-prettier"],
   "rules": {
     "prettier/prettier": true,
     "block-no-empty": null,
@@ -13,12 +10,8 @@
     "rule-empty-line-before": [
       "always",
       {
-        "except": [
-          "first-nested"
-        ],
-        "ignore": [
-          "after-comment"
-        ]
+        "except": ["first-nested"],
+        "ignore": ["after-comment"]
       }
     ]
   }
